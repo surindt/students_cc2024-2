@@ -5,5 +5,12 @@ package kass.concurrente.modelo.producto;
  * @author Kassandra Mirael
  */
 public class Producto {
+    /** Costo del producto */
+    private Double costo;
+
+    /* Constructor */
+    public Producto(costo){}
+
+    /** */
     
 }

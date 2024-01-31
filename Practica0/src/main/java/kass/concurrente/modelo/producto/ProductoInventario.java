@@ -5,5 +5,6 @@ package kass.concurrente.modelo.producto;
  * @author Kassandra Mirael
  */
 public class ProductoInventario extends Producto{
-    
+    /** Disponibilidad. No de elementos del Producto */
+    private int disponibilidad;
 }

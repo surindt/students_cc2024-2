@@ -5,7 +5,10 @@ package kass.concurrente.modelo.producto;
  * @author Kassandra Mirael
  */
 public class Platillo {
+    /* Cada platillo tiene tiempo de elaboración en minutos*/
+    private float tiempoElaboracion;
 
+    /* */
 
     /**
      * Este metodo calcula el precio sobre el precio de los items, se ignora

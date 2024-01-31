@@ -5,5 +5,6 @@ package kass.concurrente.modelo.persona;
  * @author Kassandra Mirael
  */
 public class Persona {
+    String nombre;
     
 }
