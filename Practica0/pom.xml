@@ -37,7 +37,7 @@
                         <manifest>
                             <addClasspath>true</addClasspath>
                             <classpathPrefix>lib/</classpathPrefix>
-                            <mainClass>kas.concurrrente.Main</mainClass>
+                            <mainClass>kass.concurrente.Main</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
