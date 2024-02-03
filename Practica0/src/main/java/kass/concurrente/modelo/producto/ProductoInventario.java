@@ -19,6 +19,7 @@ public class ProductoInventario extends Producto{
     /** Constructores */
     public ProductoInventario(String nombre, double costo) {
         super(nombre, costo);
+        this.disponibilidad += 1;
     }
 
     public ProductoInventario(String string, double costo, int disponibilidad) {

@@ -7,26 +7,37 @@ import java.util.List;
  * @author Kassandra Mirael
  */
 public class Platillo {
-    /* Nombre del platillo */
+    /** Nombre del platillo */
     private String nombre;
-    /* Cada platillo tiene tiempo de elaboración en minutos*/
+    /** Cada platillo tiene tiempo de elaboración en minutos*/
     private int tiempoCoccion;
-    /* Cada platillo tiene una lista de productos requeridos para su preparacion o como extra */
+    /** Cada platillo tiene una lista de productos requeridos para su preparacion o como extra */
     private List<Producto> productosRequeridos;
 
-    /* Precio */
+    /** Precio */
     private Double precio = 0.;
-    /* Constructores */
+
+    /** Constructor */
     public Platillo(){
         this.nombre = "";
         this.tiempoCoccion = 0;
     }
 
+    /** Constructor */
     public Platillo(String nombre, int tiempo){
         this.nombre = nombre;
         this.tiempoCoccion = tiempo;
     }
+    
+    /** Constructor */
+    public Platillo(List<Producto> productos, double precio, int tiempoCoccion, String string) {
+        this.tiempoCoccion = tiempoCoccion;
+        this.nombre = string;
+        this.productosRequeridos = productos;
+        this.precio = precio;
+    }
 
+    /* Getters y Setters */	
     public String getNombre() {
         return nombre;
     }
@@ -56,13 +67,6 @@ public class Platillo {
     }
 
     public void setPrecio(Double precio) {
-        this.precio = precio;
-    }
-
-    public Platillo(List<Producto> productos, double precio, int tiempoCoccion, String string) {
-        this.tiempoCoccion = tiempoCoccion;
-        this.nombre = string;
-        this.productosRequeridos = productos;
         this.precio = precio;
     }
 
