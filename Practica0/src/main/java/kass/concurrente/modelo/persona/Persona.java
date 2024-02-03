@@ -49,18 +49,27 @@ public class Persona {
         this.edad = edad;
     }
 
-    /** Ordenar un platillo */
+    /**
+     * Ordenar un platillo
+     * @param platillo
+     */
 	public void ordenar(Platillo platillo) {
 		System.out.println( this.nombre + " ordena " + platillo.getNombre());
         this.orden.add(platillo);
 	}
-    /** Ordenar un producto */
+    /**
+     * Ordenar un producto
+     * @param producto
+     */
     public void ordenar(Producto producto) {
         System.out.println(this.nombre + " ordena " + producto.getNombre());
         this.orden.add(new Platillo(List.of(producto), producto.getPrecio(), 0, producto.getNombre()));
     }
 
-    /** Tenemos una lista de platillos*/
+    /**
+     * Ordenar varios platillos
+     * @param platillos
+     */
     public void ordenar(List<Platillo> platillos) {
         System.out.println(this.nombre + " ordena " + platillos);
         for (Platillo platillo : platillos) {
