@@ -65,6 +65,6 @@ public class Main {
 
         // Cliente 3 ordena
         cliente3.ordenar(platillo3);
-        inventario = chef.atender(cliente3,inventario);
+        chef.atender(cliente3,inventario);
     }
 }
