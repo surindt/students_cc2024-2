@@ -1,3 +1,10 @@
+/**
+ * Esta clase implementa Weapon, lo que hace es crear la forma base del arma
+ * esta tiene atributos base aun.
+ * Ademas, funciona ya por si sola
+ * @version 1.0
+ * @author Kassandra Mirael
+ */
 public class BaseWeapon implements Weapon {
     protected String nombre;
     protected Integer municion;
