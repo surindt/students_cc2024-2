@@ -11,18 +11,13 @@ public class Producto {
     private Double precio;
 
     /* Constructores */
-    public Producto(){
-        this.nombre = "";
-        this.precio = 0.;
-    }
-
     public Producto(Double costo){
         this.precio = costo;
     }
 
-    public Producto(String string, double d) {
+    public Producto(String string, Double precio) {
         this.nombre = string;
-        this.precio = d;
+        this.precio = precio;
     }
 
     public String getNombre() {
@@ -40,5 +35,4 @@ public class Producto {
     public void setPrecio(Double precio) {
         this.precio = precio;
     }
-    
 }
