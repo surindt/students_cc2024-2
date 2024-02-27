@@ -1,7 +1,5 @@
 package kass.concurrente.modelos;
 
-import kass.concurrente.modelos.Prisionero;
-
 /**
  * Clase que fungira como habitacion
  * Se sabe que existe un interruptor que nos dice
@@ -33,6 +31,6 @@ public class Habitacion {
      * @throws InterruptedException Si falla algun hilo
      */
     public Boolean entraHabitacion(Prisionero prisionero) throws InterruptedException{
-
+        return null;
     }
 }

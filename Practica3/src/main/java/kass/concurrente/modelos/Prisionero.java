@@ -6,9 +6,9 @@ package kass.concurrente.modelos;
  * @author <Su equipo>
  */
 public class Prisionero {
-    private Integer id;
-    private Boolean esVocero;
-    private Boolean marcado;
+    protected Integer id;
+    protected Boolean esVocero;
+    protected Boolean marcado;
 
     /**
      * Metodo constructor para generar un prisionero

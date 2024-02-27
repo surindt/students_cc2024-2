@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>kass.concurrente</groupId>
-    <artifactId>capacitacion</artifactId>
+    <artifactId>carcel</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
