@@ -2,6 +2,9 @@ package kass.concurrente;
 
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
+import java.util.logging.Logger;
+
+import static kass.concurrente.constantes.Contante.LOGS;
 
 /**
  * Clase principal, se ejecuta todo la simulacion
@@ -37,5 +40,9 @@ public class Main implements Runnable {
 
     public static void main(String[] args) {
         Main m = new Main();
+
+        final Logger LOG = Logger.getLogger("paquete.NombreClase"); // EJEMPLO LOGGER
+
+        if(LOGS) LOG.info("HOLA SOY UN MENSAJE");
     }
 }

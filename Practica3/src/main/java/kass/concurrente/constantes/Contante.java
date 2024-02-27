@@ -7,7 +7,7 @@ package kass.concurrente.constantes;
  */
 public class Contante {
     public static final Integer PRISIONEROS = 50;
-    public static final Boolean LOGS = false;
+    public static final Boolean LOGS = true;
     public static final Integer DIEZ_SEGUNDOS = 10000;
     public static final Integer CINCO_SEGUNDOS = 5000;
     public static final String ROJO = "";
