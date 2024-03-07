@@ -8,8 +8,8 @@ import org.junit.jupiter.api.Test;
 
 import kass.concurrente.candados.Semaphore;
 import kass.concurrente.candadosImpl.Filtro;
-import kass.concurrente.inversionista.Inversionista;
-import kass.concurrente.inversionista.InversionistaFiltro;
+import kass.concurrente.invitados.Inversionista;
+import kass.concurrente.invitados.InversionistaFiltro;
 import kass.concurrente.tenedor.Tenedor;
 import kass.concurrente.tenedor.TenedorImpl;
 
