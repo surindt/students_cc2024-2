@@ -1,5 +1,7 @@
 package kass.concurrente;
 
+import kass.concurrente.modelo.persona.Chef;
+
 /**
  * Clase Main
  * Aqui va toda tu simulacion
@@ -10,5 +12,6 @@ package kass.concurrente;
 public class Main {
     public static void main(String[] args) {
         System.out.println("Hello world!");
+        Chef chef = new Chef();
     }
 }
