@@ -20,7 +20,7 @@ public class LugarTest {
     void setUp() throws InterruptedException{
         lugar = new Lugar(1);
         semaforo = new Semaphore(1);
-        initHilos();
+       
     }
 
     @Test
